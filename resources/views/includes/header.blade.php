@@ -1,4 +1,4 @@
-@props(['cityname'=>'redfggdft'])
+@props(['cityname'=>'Ничего не найдено'])
 
 @if(isset($city))
 

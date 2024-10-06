@@ -99,12 +99,12 @@ if ($exists) {
             throw $e;
         }
         }
-    
     }
 }
 
-// Закрываем cURL-сессию
-curl_close($ch);
+        // Закрываем cURL-сессию
+        curl_close($ch);
+        return redirect('/');
     }
 
 
